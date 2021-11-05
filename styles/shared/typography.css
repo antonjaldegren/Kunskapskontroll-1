@@ -1,25 +1,52 @@
 html {
 	font-size: 62.5%;
 }
+
 body {
 	font-size: 1.6rem;
 	font-family: "Zen Maru Gothic", sans-serif;
 }
-p {
-	font-size: var(--font-size-3);
-}
-small {
-	font-size: var(--font-size-1);
-}
-h1 {
-	font-size: var(--font-size-5);
-}
-h2 {
-	font-size: var(--font-size-4);
-}
+
 h1,
 h2 {
 	font-family: "Open Sans", sans-serif;
+}
+
+input,
+textarea {
+	font-family: inherit;
+}
+
+small,
+form {
+	font-size: var(--font-size-1);
+}
+
+p {
+	font-size: var(--font-size-3);
+}
+
+h2 {
+	font-size: var(--font-size-4);
+}
+
+h1 {
+	font-size: var(--font-size-5);
+}
+
+nav ul {
+	font-size: var(--font-size-1);
+}
+
+input,
+textarea,
+label {
+	font-size: inherit;
+}
+
+.logo {
+	font-size: 3.5rem;
+	font-weight: 700;
 }
 
 .my-button {
@@ -28,11 +55,30 @@ h2 {
 	letter-spacing: 0.4em;
 }
 
+form .my-button {
+	font-size: inherit;
+	letter-spacing: 0.2em;
+}
+
 @media (min-width: 650px) {
+	p {
+		font-size: var(--font-size-4);
+	}
+
+	h2 {
+		font-size: var(--font-size-5);
+	}
+
 	h1 {
 		font-size: var(--font-size-6);
 	}
-	p {
-		font-size: var(--font-size-4);
+
+	nav ul {
+		font-size: var(--font-size-2);
+	}
+
+	.logo {
+		font-size: 2.8rem;
+		font-weight: 700;
 	}
 }

@@ -30,7 +30,7 @@ a {
 	padding: 1em 2em;
 	border: none;
 	border-radius: 2em;
-	transition: var(--hover-transition-style);
+	transition: var(--main-transition-style);
 }
 .my-button:hover {
 	transform: var(--hover-transform-style);

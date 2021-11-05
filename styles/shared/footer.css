@@ -1,22 +1,23 @@
 footer {
-	color: var(--light-color);
-	background-color: var(--dark-color);
 	text-align: center;
 	padding: 5em 0;
 }
+
 .social-container {
 	display: flex;
 	justify-content: center;
-	gap: 3rem;
 	margin-bottom: 30px;
 }
+
 footer svg {
 	height: 5rem;
-	color: var(--light-color);
+	margin: 0 1em;
 }
+
 footer a {
-	transition: var(--hover-transition-style);
+	transition: var(--main-transition-style);
 }
+
 footer a:hover {
 	transform: var(--hover-transform-style);
 }

@@ -37,16 +37,14 @@ p {
 	gap: 1em;
 	margin-top: 1em;
 }
+
 .text-container a {
 	font-weight: 300;
-	align-self: flex-end;
-}
-.text-container a {
-	font-weight: 100;
 	border-bottom: 1px solid transparent;
 	align-self: flex-end;
-	transition: var(--hover-transition-style);
+	transition: var(--main-transition-style);
 }
+
 .text-container a:hover {
 	border-bottom: 1px solid var(--dark-color);
 }
@@ -55,13 +53,16 @@ p {
 	.card-container {
 		flex-direction: row;
 	}
+
 	.card-container figure {
 		min-width: 50%;
 		padding-right: 1em;
 	}
+
 	.card-container:nth-child(2n) {
 		flex-direction: row-reverse;
 	}
+
 	.card-container:nth-child(2n) figure {
 		padding-right: 0;
 		padding-left: 1em;

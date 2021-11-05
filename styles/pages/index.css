@@ -43,7 +43,7 @@
 	}
 	15% {
 		transform: rotate(14deg);
-	} /* The following five values can be played with to make the waving more or less extreme */
+	}
 	30% {
 		transform: rotate(-8deg);
 	}
@@ -116,7 +116,6 @@
 }
 .my-skills-card img,
 .my-skills-card svg {
-	display: block;
 	width: 100%;
 	height: min-content;
 	margin: auto 0;

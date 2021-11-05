@@ -1,0 +1,45 @@
+nav,
+section {
+	max-width: 102.4rem;
+	margin: 0 auto;
+	padding-left: 2rem;
+	padding-right: 2rem;
+}
+section {
+	padding: 5rem 2rem;
+	min-height: calc(100vh - var(--header-height));
+}
+a {
+	text-decoration: none;
+}
+
+.accent-bar {
+	padding-left: 1em;
+	position: relative;
+}
+.accent-bar::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 0.5em;
+}
+
+.my-button {
+	padding: 1em 2em;
+	border: none;
+	border-radius: 2em;
+	transition: var(--hover-transition-style);
+}
+.my-button:hover {
+	transform: var(--hover-transform-style);
+}
+
+.see-through-card {
+	box-shadow: 15px 15px 40px -6px rgba(0, 0, 0, 0.2);
+	backdrop-filter: blur(10px);
+	border-left: 1px solid rgba(255, 255, 255, 0.3);
+	border-top: 1px solid rgba(255, 255, 255, 0.3);
+	border-radius: 10px;
+}

@@ -1,0 +1,46 @@
+body {
+	background-image: url("../../assets/contact-background.svg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+p {
+	max-width: 17ch;
+	margin-top: 0.7em;
+}
+form {
+	margin: 3em auto 0 auto;
+}
+.text-container h1 {
+	display: inline-block;
+}
+.text-container {
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	width: fit-content;
+}
+
+@media (min-width: 900px) {
+	section {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	form {
+		flex: 1;
+		margin: 0;
+	}
+	p {
+		font-size: var(--font-size-4);
+		padding-bottom: 3em;
+		margin: 0.7em 0 0 0;
+	}
+}
+@media (min-width: 1024px) {
+	form {
+		font-size: var(--font-size-2);
+	}
+}

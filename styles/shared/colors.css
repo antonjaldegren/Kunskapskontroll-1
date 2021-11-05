@@ -1,0 +1,51 @@
+/* GENERAL COLORS */
+body {
+	background-color: var(--light-color);
+	color: var(--darkest-color);
+}
+
+a {
+	color: var(--dark-color);
+}
+header {
+	background-color: var(--dark-color);
+}
+.accent-bar::before {
+	background-color: var(--light-accent-color);
+}
+
+/* INDEX */
+.section-container:first-of-type::before {
+	background-color: var(--light-accent-color);
+}
+.section-container:nth-of-type(2) {
+	background-color: var(--lightest-color);
+}
+.my-skills-card {
+	background-color: var(--light-color);
+}
+
+/* BUTTON */
+.my-button,
+.my-button:link,
+.my-button:visited {
+	color: var(--light-color);
+	background-color: var(--darkest-color);
+}
+.my-button:active {
+	color: var(--light-accent-color);
+}
+
+/* SEE THROUGH CARD */
+.see-through-card {
+	background-color: rgba(255, 255, 255, 0.06);
+}
+
+/* FORM */
+form {
+	color: var(--darkest-color);
+}
+input:focus,
+textarea:focus {
+	background-color: #f5cc5c23;
+}

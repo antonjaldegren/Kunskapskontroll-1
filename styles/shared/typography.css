@@ -1,0 +1,38 @@
+html {
+	font-size: 62.5%;
+}
+body {
+	font-size: 1.6rem;
+	font-family: "Zen Maru Gothic", sans-serif;
+}
+p {
+	font-size: var(--font-size-3);
+}
+small {
+	font-size: var(--font-size-1);
+}
+h1 {
+	font-size: var(--font-size-5);
+}
+h2 {
+	font-size: var(--font-size-4);
+}
+h1,
+h2 {
+	font-family: "Open Sans", sans-serif;
+}
+
+.my-button {
+	font-family: inherit;
+	font-size: var(--font-size-2);
+	letter-spacing: 0.4em;
+}
+
+@media (min-width: 650px) {
+	h1 {
+		font-size: var(--font-size-6);
+	}
+	p {
+		font-size: var(--font-size-4);
+	}
+}

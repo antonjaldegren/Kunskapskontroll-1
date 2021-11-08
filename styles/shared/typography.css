@@ -60,6 +60,10 @@ form .my-button {
 	letter-spacing: 0.2em;
 }
 
+.project-description {
+	font-size: var(--font-size-2);
+}
+
 @media (min-width: 650px) {
 	p {
 		font-size: var(--font-size-4);
@@ -80,5 +84,17 @@ form .my-button {
 	.logo {
 		font-size: 2.8rem;
 		font-weight: 700;
+	}
+}
+
+@media (min-width: 900px) {
+	#contactSection p {
+		font-size: var(--font-size-4);
+	}
+}
+
+@media (min-width: 1024px) {
+	form {
+		font-size: var(--font-size-2);
 	}
 }

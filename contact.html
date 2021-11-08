@@ -4,14 +4,12 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<!-- GOOGLE FONTS -->
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
 			href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Zen+Maru+Gothic:wght@300;400;500;700&display=swap"
 			rel="stylesheet"
 		/>
-		<!-- CUSTOM CSS -->
 		<link rel="stylesheet" href="styles/shared/reset.css" />
 		<link rel="stylesheet" href="styles/shared/variables.css" />
 		<link rel="stylesheet" href="styles/shared/colors.css" />
@@ -21,7 +19,6 @@
 		<link rel="stylesheet" href="styles/shared/forms.css" />
 		<link rel="stylesheet" href="styles/pages/contact.css" />
 		<link rel="stylesheet" href="styles/shared/footer.css" />
-
 		<title>Anton Jaldegren | Front End Developer - Contact</title>
 	</head>
 	<body>
@@ -50,7 +47,7 @@
 			</nav>
 		</header>
 		<main>
-			<section>
+			<section id="contactSection">
 				<div class="text-container">
 					<h1>Contact</h1>
 					<p>
@@ -61,15 +58,20 @@
 				</div>
 				<form class="see-through-card">
 					<div class="input-group">
-						<input id="email" type="text" required />
+						<input
+							id="email"
+							type="email"
+							placeholder=" "
+							required
+						/>
 						<label for="email">Email</label>
 					</div>
 					<div class="input-group">
 						<textarea
-							name=""
 							id="message"
 							cols="30"
 							rows="10"
+							placeholder=" "
 							required
 						></textarea>
 						<label for="message">Message</label>

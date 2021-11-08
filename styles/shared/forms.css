@@ -18,9 +18,7 @@ label {
 	left: 1.2em;
 	top: 1em;
 	transition: var(--main-transition-style);
-}
-.my-button {
-	align-self: center;
+	pointer-events: none;
 }
 
 input,
@@ -45,13 +43,16 @@ button,
 	position: relative;
 }
 
-/* STATES */
+.my-button {
+	align-self: center;
+}
+
 button:hover {
 	cursor: pointer;
 }
 
-input:valid ~ label,
-textarea:valid ~ label,
+input:not(:placeholder-shown) ~ label,
+textarea:not(:placeholder-shown) ~ label,
 input:focus ~ label,
 textarea:focus ~ label {
 	top: -1.8em;
@@ -64,4 +65,11 @@ textarea:focus {
 	border: 1px solid #be8f0c70;
 	border-left: 1px solid #f5cb5c70;
 	border-top: 1px solid #f5cb5c70;
+}
+
+@media (min-width: 900px) {
+	form {
+		flex: 1;
+		margin: 0;
+	}
 }

@@ -26,16 +26,20 @@ footer svg {
 	color: var(--dark-accent-color);
 }
 
+.nav-link {
+	color: var(--light-accent-color);
+}
+
 .nav-link:active {
 	color: var(--dark-accent-color);
 }
 
 .accent-bar::before,
-.section-container:first-of-type::before {
+.section-wrapper:first-of-type::before {
 	background-color: var(--light-accent-color);
 }
 
-.section-container:nth-of-type(2) {
+.section-wrapper:nth-of-type(2) {
 	background-color: var(--lightest-color);
 }
 
@@ -50,6 +54,14 @@ footer svg {
 
 .see-through-card {
 	background-color: var(--see-through-color);
+}
+
+.circuit-background-gradient {
+	background: linear-gradient(var(--light-color), var(--lightest-color));
+}
+
+.circuit-background-pattern {
+	background-color: transparent;
 }
 
 input,

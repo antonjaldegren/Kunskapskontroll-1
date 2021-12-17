@@ -7,10 +7,6 @@ section {
 	flex-direction: column;
 }
 
-img {
-	width: 100%;
-}
-
 p {
 	margin-top: 1em;
 }

@@ -15,6 +15,10 @@ a {
 	text-decoration: none;
 }
 
+img {
+	width: 100%;
+}
+
 .accent-bar {
 	padding-left: 1em;
 	position: relative;

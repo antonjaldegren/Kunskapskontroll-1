@@ -34,6 +34,11 @@ footer svg {
 	color: var(--dark-accent-color);
 }
 
+.arrow-container path,
+.img-indicator-container circle {
+	fill: var(--dark-color);
+}
+
 .accent-bar::before,
 .section-wrapper:first-of-type::before {
 	background-color: var(--light-accent-color);

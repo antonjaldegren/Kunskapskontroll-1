@@ -2,8 +2,8 @@ p:nth-of-type(2) {
 	padding-top: 1em;
 }
 
-path,
-circle {
+.arrow-container path,
+.img-indicator-container circle {
 	fill: var(--dark-color);
 }
 

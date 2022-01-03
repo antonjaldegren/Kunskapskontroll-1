@@ -17,10 +17,12 @@ $(".right svg").on("click", () => {
 });
 
 $(".img-container img").on("click", () => {
-	$(".modal").css("display", "flex");
-	$(".modal img").attr("src", `./assets/exp-detail-${imgIndex}.jpg`);
-});
-
-$(".modal").on("click", () => {
-	$(".modal").css("display", "none");
+	$("main").append(
+		`<div class="modal">
+			<img src="./assets/exp-detail-${imgIndex}.jpg" alt="Image from project" />
+		</div>`
+	);
+	$(".modal").on("click", () => {
+		$(".modal").remove();
+	});
 });

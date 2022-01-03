@@ -26,6 +26,14 @@ footer svg {
 	color: var(--dark-accent-color);
 }
 
+.hamburger-logo rect {
+	fill: var(--dark-accent-color);
+}
+
+.slide-in-menu {
+	background-color: var(--dark-color);
+}
+
 .nav-link {
 	color: var(--light-accent-color);
 }

@@ -1,4 +1,4 @@
-$(".hamburger-menu").on("click", () => {
+$(".hamburger-logo").on("click", () => {
 	$(".slide-in-menu").toggleClass("menu-open");
 	$(".top-bar").toggleClass("tilt-down");
 	$(".middle-bar").toggleClass("hide");
